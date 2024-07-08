@@ -8,10 +8,10 @@ async function dbConnect() {
     .connect(
         process.env.DB_URL,
       {
-        //   these are options to ensure that the connection is done properly
-        // useNewUrlParser: true,
-        // useUnifiedTopology: true,
-        // useCreateIndex: true,
+        //  these are options to ensure that the connection is done properly
+       // useNewUrlParser: true,
+       // useUnifiedTopology: true,
+       // useCreateIndex: true,
       }
     )
     .then(() => {
